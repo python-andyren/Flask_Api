@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 
-@app.route('/')
+@app.route('/api')
 def index():
     conn = pymysql.connect(host='127.0.0.1', user='root', password='dd..0202', db='new_shopinfo', charset='utf8')
     cur = conn.cursor()
@@ -25,7 +25,7 @@ def index():
     conn.close()
     return Response(json.dumps({'result': result}), mimetype='application/json')
 
-@app.route('/testpost', methods=['GET', 'POST'])
+@app.route('/api/testpost', methods=['GET', 'POST'])
 def test():
     if request.method == "POST":
         user = request.form.get('user')
