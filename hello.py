@@ -129,7 +129,7 @@ def parse_shopuserid():
             result = pattern.findall(content1)[0]
 
             if result == '基础版' or result == '专业版':
-                type = '淘宝'
+                type = 'taobao'
                 company = ''
                 re_shop_name = re.compile(r'tbwmdd.1.044>(.*?)<')
                 shop_name = re_shop_name.findall(content1)[0]
@@ -137,7 +137,7 @@ def parse_shopuserid():
                 ww = re_ww.findall(content1)[0]
 
             else:
-                type = '天猫'
+                type = 'tmall'
                 re_company = re.compile(r'公司名：<label><divclass=right>(.*?)<div>')
                 company = re_company.findall(content1)[0]
                 re_tmall_shop = re.compile(r'.htm>(.*?)<')

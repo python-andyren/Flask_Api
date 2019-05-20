@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="" />
+    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +19,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="420">
+              <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#806#2004#0" />
                 <element signature="e#2084#3999#0" />
-                <element signature="e#4080#5995#0" />
               </folding>
             </state>
           </provider>
@@ -172,15 +173,16 @@
       <workItem from="1556001030764" duration="525000" />
       <workItem from="1556014750663" duration="569000" />
       <workItem from="1556015551255" duration="525000" />
-      <workItem from="1558318159304" duration="4420000" />
+      <workItem from="1558318159304" duration="4957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28893000" />
+    <option name="totallyTimeSpent" value="29430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="34" width="1497" height="1043" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27697596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -218,13 +220,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="420">
+          <caret line="139" column="29" selection-start-line="139" selection-start-column="29" selection-end-line="139" selection-end-column="29" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#806#2004#0" />
             <element signature="e#2084#3999#0" />
-            <element signature="e#4080#5995#0" />
           </folding>
         </state>
       </provider>
