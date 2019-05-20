@@ -110,7 +110,7 @@ def parse_img():
 
 
 @app.route('/api/parse_shopuserid', methods=['GET', 'POST'])
-def parse_img():
+def parse_shopuserid():
     #如果请求方式位Post
     if request.method == "POST":
         shopuserid = request.form.get('shopuserid')
