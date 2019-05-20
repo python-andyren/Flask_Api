@@ -155,7 +155,8 @@ def parse_shopuserid():
                 'shop_type': type,
                 'shop_name': shop_name,
                 'ww': ww,
-                'company_name': company
+                'company_name': company,
+                'ali_user_id': int(shopuserid)
             }
 
             return Response(json.dumps(content2), mimetype='application/json')
