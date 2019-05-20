@@ -120,7 +120,14 @@ def parse_shopuserid():
         url = 'https://hdc1.alicdn.com/asyn.htm?userId={}'
 
         headers = {
-            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+            'accept-encoding': 'gzip, deflate, br',
+            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+            'cache-control': 'max-age=0',
+            'cookie': 'cna=MZ32FG+Ec0ICAdpPJ8rf1Nh8; isg=BNXVAChIJaFAcAHFYk4O-rD-5NdPeonqXBYHQld6ksybrvWgHyTstDYnfPK9rqGc',
+            'if-modified-since': 'Sun, 19 May 2019 10:39:38 GMT',
+            'upgrade-insecure-requests': '1',
+            'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36',
         }
 
         try:
