@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+            <state relative-caret-position="375">
+              <caret line="163" column="40" lean-forward="true" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
                 <element signature="e#218#735#0" />
@@ -173,12 +173,12 @@
       <workItem from="1556001030764" duration="525000" />
       <workItem from="1556014750663" duration="569000" />
       <workItem from="1556015551255" duration="525000" />
-      <workItem from="1558318159304" duration="2532000" />
+      <workItem from="1558318159304" duration="2787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27005000" />
+    <option name="totallyTimeSpent" value="27260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="34" width="1497" height="1043" extended-state="0" />
@@ -219,8 +219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+        <state relative-caret-position="375">
+          <caret line="163" column="40" lean-forward="true" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
             <element signature="e#218#735#0" />

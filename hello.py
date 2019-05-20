@@ -161,4 +161,4 @@ def parse_shopuserid():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', deubug=True)
+    app.run(host='0.0.0.0', debug=True)
