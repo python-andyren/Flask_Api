@@ -20,23 +20,25 @@ url = 'http://data.linlang.com/General/parse_ali_img'
 #     'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36',
 #     'X-Requested-With': 'XMLHttpRequest',
 # }
+add_time = time.strftime('%Y%m%d', time.localtime(time.time()))
 
-data = {
-    'url': 'https://img.alicdn.com/imgextra/i3/3603001646/O1CN01zFDRSS1O1uQEuEHWV_!!3603001646.jpg',
-}
+def md5_passwd():
+    #satl是盐值，默认是123456
+    add_time = time.strftime('%Y%m%d', time.localtime(time.time()))
+    salt = 'fuck_python'
+    str= add_time + salt
+    import hashlib
+    md = hashlib.md5()  # 构造一个md5对象
+    md.update(str.encode())
+    res = md.hexdigest()
+    print(res)
+    return res
 
+a = md5_passwd()
+b = '4204717c0c03ef54d88f8dde2aeec85e'
 
-content = requests.post(url=url,data=data).json()
+if a == b:
+    print('yes')
 
-end = time.clock()
-
-t=end-start
-
-print("Runtime is ：",t)
-
-print(content)
-
-
-
-
-# 0.16
+else:
+    print('no')
