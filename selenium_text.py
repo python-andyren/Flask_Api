@@ -100,7 +100,7 @@ def get_tag(name):
     return tag
 
 for i in li:
-    b_id = i['id']
+    # b_id = i['id']
     name = i['account_name']
     print(name)
 
@@ -157,7 +157,7 @@ for i in li:
 
         data = {
             'ww': name,
-            'b_id': b_id,
+            # 'b_id': b_id,
             'buyreputation': buyreputation,
             'bussreputation': bussreputation,
             'sex': sex,
