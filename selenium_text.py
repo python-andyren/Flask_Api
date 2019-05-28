@@ -193,19 +193,21 @@ for i in li:
         # to_mysql(data)
 
 
-    except:
-        result = EC.alert_is_present()(driver)
-
-        if result:
-            result.accept()
-            print('旺旺名不合法')
-
-        elif result is False:
-            try:
-                driver.find_element_by_xpath('/html/body/div[2]/div[3]/div[1]/div[2]/div[1]/div/button[1]').click()
-                print('繁体旺旺')
-            except:
-                print('账号不存在')
+    # except:
+    except Exception as e:
+        print(e)
+        # result = EC.alert_is_present()(driver)
+        #
+        # if result:
+        #     result.accept()
+        #     print('旺旺名不合法')
+        #e
+        # elif result is False:
+        #     try:
+        #         driver.find_element_by_xpath('/html/body/div[2]/div[3]/div[1]/div[2]/div[1]/div/button[1]').click()
+        #         print('繁体旺旺')
+        #     except:
+        #         print('账号不存在')
 
     loop_time = random.randint(5, 10)
 
