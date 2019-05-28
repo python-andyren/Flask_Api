@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/selenium_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_text.py" afterDir="false" />
-    </list>
+    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selenium_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="-280">
+              <caret line="159" column="19" selection-start-line="159" selection-end-line="160" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
                 <element signature="e#532#2456#0" />
@@ -188,12 +186,12 @@
       <workItem from="1556015551255" duration="525000" />
       <workItem from="1558318159304" duration="12573000" />
       <workItem from="1558682159936" duration="272000" />
-      <workItem from="1558683064388" duration="1697000" />
+      <workItem from="1558683064388" duration="1971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39015000" />
+    <option name="totallyTimeSpent" value="39289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="34" width="1497" height="1043" extended-state="0" />
@@ -245,8 +243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="-280">
+          <caret line="159" column="19" selection-start-line="159" selection-end-line="160" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
             <element signature="e#532#2456#0" />

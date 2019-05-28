@@ -54,14 +54,18 @@ re = requests.get(url=huolifu_url).json()
 
 li = [i for i in re if ' ' not in i]
 
-num = str(float(random.randint(500, 600)))
-option = webdriver.ChromeOptions()
-option.add_argument('--no-sandbox')
-option.add_argument('--headless')
-option.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/{} (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/{}".format(num,num))
-option.add_argument('http://app.tk1788.com')
+options = webdriver.ChromeOptions()
+options.add_experimental_option("prefs", {"profile.managed_default_content_settings.images": 1})
+options.add_experimental_option('excludeSwitches', ['enable-automation'])  # 设置为开发者模式
+# centos无GUI配置
+options.add_argument("--headless") # 是否开启无头
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-gpu')
+options.add_argument('--disable-dev-shm-usage')
 
-driver = webdriver.Chrome(executable_path='/root/selenium_project/chromedriver', chrome_options=option)
+
+
+driver = webdriver.Chrome(executable_path='/root/selenium_project/chromedriver', chrome_options=options)
 add_time = int(time.strftime('%Y%m%d', time.localtime(time.time())))
 
 url = 'http://app.tk1788.com/app/superscan/op.jsp?m=login&username=13761094036&password=fcf8041799a5b115d49e7cc81977363d&type=1&sign=1559005188244spliceb49693a00dadea23919788efdde8d50'
