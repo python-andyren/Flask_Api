@@ -55,8 +55,10 @@ re = requests.get(url=huolifu_url).json()
 
 li = [i for i in re if ' ' not in i]
 
-
-driver = webdriver.Chrome()
+option = webdriver.ChromeOptions()
+option.add_argument('--no-sandbox')
+option.add_argument('--headless')
+driver = webdriver.Chrome(executable_path='/root/selenium_project/chromedriver', chrome_options=option)
 add_time = int(time.strftime('%Y%m%d', time.localtime(time.time())))
 
 url = 'http://app.tk1788.com/app/superscan/op.jsp?m=login&username=18601793325&password=665defb7cfa842f52650555321061622&type=1&sign=1559005417423splic234f3c983713bd460e7c8c978ee4f436'
