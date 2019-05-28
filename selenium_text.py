@@ -195,6 +195,7 @@ for i in li:
 
     # except:
     except Exception as e:
+        print(driver.page_source)
         print(e)
         # result = EC.alert_is_present()(driver)
         #
