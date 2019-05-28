@@ -99,6 +99,7 @@ def get_tag(name):
 for i in li:
     b_id = i['id']
     name = i['account_name']
+    print(name)
 
     try:
         inputID = driver.find_element_by_id("aliim")
@@ -199,7 +200,7 @@ for i in li:
             except:
                 print('账号不存在')
 
-    loop_time = random.randint(3, 6)
+    loop_time = random.randint(5, 10)
 
     time.sleep(loop_time)
 
