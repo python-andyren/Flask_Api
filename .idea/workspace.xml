@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/selenium_text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_text.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/selenium_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
+            <state relative-caret-position="480">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="e#14#44#0" expanded="true" />
                 <element signature="e#532#2456#0" />
@@ -190,15 +188,16 @@
       <workItem from="1556015551255" duration="525000" />
       <workItem from="1558318159304" duration="12573000" />
       <workItem from="1558682159936" duration="272000" />
-      <workItem from="1558683064388" duration="485000" />
+      <workItem from="1558683064388" duration="1697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37803000" />
+    <option name="totallyTimeSpent" value="39015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="447" y="34" width="1497" height="1043" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2838488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium_text.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="205" column="10" selection-start-line="205" selection-start-column="10" selection-end-line="205" selection-end-column="10" />
+        <state relative-caret-position="480">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="e#14#44#0" expanded="true" />
             <element signature="e#532#2456#0" />

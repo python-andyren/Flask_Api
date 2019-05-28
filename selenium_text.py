@@ -9,8 +9,7 @@ from sshtunnel import SSHTunnelForwarder
 import random
 from lxml import etree
 
-add_cookie = 'UM_distinctid=16975c397bc6c2-0ab89e82e3d363-36617902-240000-16975c397bddff; JSESSIONID=6D35A99AF9E9A2B39FAC4C1A4E665F8B; CNZZDATA4962612=cnzz_eid%3D1091340430-1552458700-%26ntime%3D1559024150; CNZZDATA1276815554=1771521902-1553735125-%7C1559025544'
-
+add_cookie = 'UM_distinctid=16975c397bc6c2-0ab89e82e3d363-36617902-240000-16975c397bddff; JSESSIONID=6D35A99AF9E9A2B39FAC4C1A4E665F8B; CNZZDATA4962612=cnzz_eid%3D1091340430-1552458700-%26ntime%3D1559029550; CNZZDATA1276815554=1771521902-1553735125-%7C1559030944'
 
 def to_mysql(data):
     with SSHTunnelForwarder(
@@ -45,9 +44,9 @@ def to_mysql(data):
         cursor.close()
     db_connect.close()
 
-fp = open('ll.txt', 'a+')
+# fp = open('ll.txt', 'a+')
 
-huolifu_url = 'http://admin123.linlang.com/comm_plat_linlang/userAccountInfoAllOld'
+huolifu_url = 'http://plm.wanyunfu.com/comm_plat_huoli/out_bind_info'
 
 # huoyingfu = 'http://plm.huoyingfu.com/comm_plat_shuangying/out_bind_info'
 
@@ -55,13 +54,17 @@ re = requests.get(url=huolifu_url).json()
 
 li = [i for i in re if ' ' not in i]
 
+num = str(float(random.randint(500, 600)))
 option = webdriver.ChromeOptions()
 option.add_argument('--no-sandbox')
 option.add_argument('--headless')
+option.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/{} (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/{}".format(num,num))
+option.add_argument('http://app.tk1788.com')
+
 driver = webdriver.Chrome(executable_path='/root/selenium_project/chromedriver', chrome_options=option)
 add_time = int(time.strftime('%Y%m%d', time.localtime(time.time())))
 
-url = 'http://app.tk1788.com/app/superscan/op.jsp?m=login&username=18601793325&password=665defb7cfa842f52650555321061622&type=1&sign=1559005417423splic234f3c983713bd460e7c8c978ee4f436'
+url = 'http://app.tk1788.com/app/superscan/op.jsp?m=login&username=13761094036&password=fcf8041799a5b115d49e7cc81977363d&type=1&sign=1559005188244spliceb49693a00dadea23919788efdde8d50'
 
 driver.get(url)
 
@@ -181,7 +184,7 @@ for i in li:
 
         print(data)
 
-        fp.write(str(data) + '\n')
+        # fp.write(str(data) + '\n')
 
         # to_mysql(data)
 
@@ -206,4 +209,4 @@ for i in li:
 
 driver.quit()
 
-fp.close()
+# fp.close()
