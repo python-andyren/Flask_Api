@@ -10,7 +10,7 @@ import hashlib
 import redis
 
 
-r_cookie = redis.Redis(host='172.21.0.39', port=6379, password='23323WudweSB6eHQ', db='1')
+r_cookie = redis.Redis(host='127.0.0.1', port=6379, db='1')
 
 
 app = Flask(__name__)
