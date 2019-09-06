@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="" />
+    <list default="true" id="071e3bac-7599-4174-a4df-4659337c841e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_getJDExpress.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_getJDExpress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,8 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Learn_flask$api_getJDExpress.coverage" NAME="api_getJDExpress Coverage Results" MODIFIED="1563527521410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learn_flask$chaoren.coverage" NAME="chaoren Coverage Results" MODIFIED="1561008769039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Learn_flask$test.coverage" NAME="test Coverage Results" MODIFIED="1561536072863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learn_flask$test.coverage" NAME="test Coverage Results" MODIFIED="1567762060915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learn_flask$hello.coverage" NAME="hello Coverage Results" MODIFIED="1553586340046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learn_flask$chaojiying.coverage" NAME="chaojiying Coverage Results" MODIFIED="1560997855108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -33,8 +38,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_get_shopInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="904">
-              <caret line="169" column="61" lean-forward="true" selection-start-line="169" selection-start-column="61" selection-end-line="169" selection-end-column="61" />
+            <state relative-caret-position="921">
+              <caret line="123" column="101" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="123" selection-end-column="101" />
+              <folding>
+                <element signature="e#14#54#0" expanded="true" />
+                <element signature="e#1157#2355#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
               <folding>
                 <element signature="e#14#54#0" expanded="true" />
               </folding>
@@ -43,25 +61,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#14#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_getJDExpress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="555">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding>
-                <element signature="e#554#1536#0" />
-                <element signature="e#1644#2816#0" />
+                <element signature="e#14#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,16 +91,17 @@
         <option value="$PROJECT_DIR$/chaojiying.py" />
         <option value="$PROJECT_DIR$/chaoren.py" />
         <option value="$PROJECT_DIR$/hello.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/api_getJDExpress.py" />
+        <option value="$PROJECT_DIR$/api_get_shopInfo.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="35" />
+    <option name="x" value="335" />
+    <option name="y" value="29" />
     <option name="width" value="1713" />
-    <option name="height" value="1065" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -103,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,7 +121,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,6 +150,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.test">
+    <configuration name="api_getJDExpress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Learn_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_getJDExpress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="chaojiying" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learn_flask" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,6 +263,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.api_getJDExpress" />
         <item itemvalue="Python.chaoren" />
         <item itemvalue="Python.chaojiying" />
         <item itemvalue="Python.hello" />
@@ -273,23 +302,31 @@
       <workItem from="1561685049061" duration="844000" />
       <workItem from="1562149007880" duration="566000" />
       <workItem from="1562547770891" duration="466000" />
-      <workItem from="1562652896001" duration="13779000" />
+      <workItem from="1562652896001" duration="15397000" />
+      <workItem from="1563415816608" duration="181000" />
+      <workItem from="1563416021428" duration="616000" />
+      <workItem from="1563523459041" duration="2205000" />
+      <workItem from="1563761075334" duration="6973000" />
+      <workItem from="1564470956448" duration="1858000" />
+      <workItem from="1564966956751" duration="3513000" />
+      <workItem from="1566011076035" duration="2618000" />
+      <workItem from="1566957868796" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107752000" />
+    <option name="totallyTimeSpent" value="128871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="35" width="1713" height="1065" extended-state="0" />
+    <frame x="335" y="29" width="1713" height="1069" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16696589" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18132855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299075" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3134635" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3132037" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +335,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35354573" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35209826" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,9 +371,7 @@
     <entry file="file://$PROJECT_DIR$/1.jpg" />
     <entry file="file://$PROJECT_DIR$/a.jpg" />
     <entry file="file://$PROJECT_DIR$/b.jpg" />
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/wrappers/base_response.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -344,40 +379,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chaojiying.py">
+    <entry file="file://$PROJECT_DIR$/chaojiying.py" />
+    <entry file="file://$PROJECT_DIR$/chaoren.py" />
+    <entry file="file://$PROJECT_DIR$/selenium_text.py" />
+    <entry file="file://$PROJECT_DIR$/api_getJDExpress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#38#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chaoren.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="e#15#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selenium_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="e#14#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="555">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding>
             <element signature="e#14#54#0" expanded="true" />
           </folding>
@@ -386,21 +394,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_get_shopInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="169" column="61" lean-forward="true" selection-start-line="169" selection-start-column="61" selection-end-line="169" selection-end-column="61" />
+        <state relative-caret-position="921">
+          <caret line="123" column="101" lean-forward="true" selection-start-line="83" selection-start-column="8" selection-end-line="123" selection-end-column="101" />
           <folding>
             <element signature="e#14#54#0" expanded="true" />
+            <element signature="e#1157#2355#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_getJDExpress.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="378">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
           <folding>
-            <element signature="e#554#1536#0" />
-            <element signature="e#1644#2816#0" />
+            <element signature="e#14#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
