@@ -52,7 +52,6 @@ def get_shop_userid(item_id):
     return shop_user_id
 
 
-
 def get_tm_company(shop_user_id):
     url = 'https://hdc1.alicdn.com/asyn.htm?userId={}'
 
@@ -77,6 +76,10 @@ def get_tm_company(shop_user_id):
 
     return content2
 
+# a = get_shop_userid('599535180408')
+# b = get_tm_company(a)
+# print(b)
+# exit()
 
 
 
@@ -86,6 +89,7 @@ def parse_shopuserid():
     if request.method == "POST":
         # 获取post请求参数密钥
         secret_key = request.form.get('secret_key')
+        print('密钥为：%s' % secret_key)
         # 本地本地生成密钥
         md5_key = 'test_api'
         # 比对密钥
@@ -93,10 +97,13 @@ def parse_shopuserid():
 
             try:
                 item_id = request.form.get('item_id')
+                print('item_id：%s' % item_id)
 
                 shop_user_id = get_shop_userid(item_id)
+                print('shop_user_id：%s' % shop_user_id)
 
                 result = get_tm_company(shop_user_id)
+                print(result)
 
                 return Response(json.dumps(result), mimetype='application/json')
 
