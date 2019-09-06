@@ -80,6 +80,36 @@ def get_tm_company(shop_user_id):
 
 
 
+@app.route('/api/get_tmall_company', methods=['GET', 'POST'])
+def parse_shopuserid():
+    # 如果请求方式位Post
+    if request.method == "POST":
+        # 获取post请求参数密钥
+        secret_key = request.form.get('secret_key')
+        # 本地本地生成密钥
+        md5_key = 'test_api'
+        # 比对密钥
+        if secret_key == md5_key:
+
+            try:
+                item_id = request.form.get('item_id')
+
+                shop_user_id = get_shop_userid(item_id)
+
+                result = get_tm_company(shop_user_id)
+
+                return Response(json.dumps(result), mimetype='application/json')
+
+            except:
+                return Response(json.dumps({'msg': '联系管理员'}), mimetype='application/json')
+        else:
+
+            return Response(json.dumps({'msg': '密钥不正确'}), mimetype='application/json')
+
+    elif request.method == "GET":
+        return Response(json.dumps({'msg': 'Request Method Is Wrong!'}), mimetype='application/json')
+
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
