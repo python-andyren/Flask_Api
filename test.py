@@ -99,7 +99,7 @@ def parse_shopuserid():
         if secret_key == md5_key:
 
             try:
-                shop_id = request.form.get('item_id')
+                shop_id = request.form.get('shop_id')
                 print('item_id：%s' % shop_id)
 
                 shop_user_id = shopid_get_userid(shop_id)
