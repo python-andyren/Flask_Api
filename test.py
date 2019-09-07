@@ -99,13 +99,13 @@ def parse_shopuserid():
         if secret_key == md5_key:
 
             try:
-                shop_id = request.form.get('shop_id')
-                print('item_id：%s' % shop_id)
+                user_id = request.form.get('user_id')
+                print('item_id：%s' % user_id)
 
-                shop_user_id = shopid_get_userid(shop_id)
-                print('shop_user_id：%s' % shop_user_id)
+                # shop_user_id = shopid_get_userid(shop_id)
+                # print('shop_user_id：%s' % shop_user_id)
 
-                result = get_tm_company(shop_user_id)
+                result = get_tm_company(user_id)
                 print(result)
 
                 return Response(json.dumps(result), mimetype='application/json')
